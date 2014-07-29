@@ -1,0 +1,31 @@
+{
+  "name": "socketpair",
+  "version": "0.1.0",
+  "description": "Creates a pair of socket-like streams that read and write to each other",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape $(find test -name '[^.]*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iarna/socketpair.git"
+  },
+  "keywords": [
+    "streams",
+    "socketpair",
+    "sockets",
+    "mock",
+    "sockets",
+    "fake",
+    "sockets"
+  ],
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/iarna/socketpair/issues"
+  },
+  "homepage": "https://github.com/iarna/socketpair",
+  "devDependencies": {
+    "tape": "^2.13.4"
+  }
+}
